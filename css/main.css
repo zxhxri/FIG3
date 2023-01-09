@@ -91,6 +91,7 @@ textarea {
 }
 
 body {
+    overflow-x: hidden;
     padding: 20px;
     height: 10000px;
     background: linear-gradient(180deg, rgba(36, 0, 255, 0.35) 0%, rgba(18, 154, 24, 0.457812) 46.88%, rgba(219, 39, 39, 0.58) 100%);
