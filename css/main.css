@@ -297,6 +297,15 @@ body {
     font-size: 20px;
 }
     
+    @media (max-width: 768px) {
+    
+    .info {
+    display: inline;
+         letter-spacing: -0.2px;
+    line-height: 1.2;
+    font-size: 20px;
+}
+    
 }
 /* ==========================================================================
    Print styles.
