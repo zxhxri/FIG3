@@ -447,6 +447,10 @@ footer {
         line-height: 1.2;
         font-size: 20px;
     }
+    
+    .column{
+        margin: 0px;
+    }
 
     @media (max-width: 768px) {
 
@@ -456,7 +460,9 @@ footer {
             line-height: 1.2;
             font-size: 20px;
         }
-
+.column{
+        margin: 0px;
+    }
     }
 
     /* ==========================================================================
