@@ -18,9 +18,9 @@
 }
 
 html {
-/*    color: #222;*/
-/*    font-size: 1em;*/
-/*    line-height: 1.3;*/
+    /*    color: #222;*/
+    /*    font-size: 1em;*/
+    /*    line-height: 1.3;*/
 
 }
 
@@ -93,9 +93,10 @@ textarea {
 body {
     overflow-x: hidden;
     padding: 20px;
-/*    height: 10000px;*/
+    /*    height: 10000px;*/
     background: linear-gradient(180deg, rgba(36, 0, 255, 0.35) 0%, rgba(18, 154, 24, 0.457812) 46.88%, rgba(219, 39, 39, 0.58) 100%);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .lang {
@@ -114,7 +115,7 @@ body {
     padding: 8px 22px;
     font-size: 18px;
     font-family: Aeonik, sans-serif;
-     font-feature-settings: "ss16";
+    font-feature-settings: "ss16";
     line-height: 100%;
     display: inline-block;
     vertical-align: middle;
@@ -141,10 +142,10 @@ body {
 }
 
 .btn:active,
-.btn:visited:active {
-}
+.btn:visited:active {}
 
-#logo {
+header {
+    z-index: 8;
     top: 120px;
     position: absolute;
     margin-left: auto;
@@ -153,45 +154,77 @@ body {
     right: 0;
     text-align: center;
     width: 80%;
-    z-index: 999999;
+}
+
+#logo {
+    
     fill: #DD05B4;
     transition: fill 0.1s ease-in-out;
     -webkit-transition: fill 0.1s ease-in-out;
     -moz-transition: fill 0.1s ease-in-out;
     -ms-transition: fill 0.1s ease-in-out;
     -o-transition: fill 0.1s ease-in-out;
-    
+
     -webkit-animation: color_change 2s infinite alternate;
-	-moz-animation: color_change 2s infinite alternate;
-	-ms-animation: color_change 2s infinite alternate;
-	-o-animation: color_change 2s infinite alternate;
-	animation: color_change 2s infinite alternate;
+    -moz-animation: color_change 2s infinite alternate;
+    -ms-animation: color_change 2s infinite alternate;
+    -o-animation: color_change 2s infinite alternate;
+    animation: color_change 2s infinite alternate;
 }
 
 @-webkit-keyframes color_change {
-	from { fill: #3347FF; }
-	to { fill: #DE248A; }
+    from {
+        fill: #3347FF;
+    }
+
+    to {
+        fill: #DE248A;
+    }
 }
+
 @-moz-keyframes color_change {
-	from { fill: #3347FF; }
-	to { fill: #DE248A; }
+    from {
+        fill: #3347FF;
+    }
+
+    to {
+        fill: #DE248A;
+    }
 }
+
 @-ms-keyframes color_change {
-	from { fill: #3347FF; }
-	to { fill: #DE248A; }
+    from {
+        fill: #3347FF;
+    }
+
+    to {
+        fill: #DE248A;
+    }
 }
+
 @-o-keyframes color_change {
-	from { fill: #3347FF; }
-	to { fill: #DE248A; }
+    from {
+        fill: #3347FF;
+    }
+
+    to {
+        fill: #DE248A;
+    }
 }
+
 @keyframes color_change {
-	from { fill: #3347FF; }
-	to { fill: #DE248A; }
+    from {
+        fill: #3347FF;
+    }
+
+    to {
+        fill: #DE248A;
+    }
 }
 
 #logo:hover {
-/*    fill: #B2A6FF;*/
-    
+    /*    fill: #B2A6FF;*/
+
 }
 
 .pictogram-1 {
@@ -202,7 +235,7 @@ body {
 
 .pictogram-2 {
     position: relative;
-   margin-top: -80px;
+    margin-top: -80px;
     z-index: 1;
 }
 
@@ -217,7 +250,7 @@ body {
     color: #1A6906;
 }
 
-.info a{
+.info a {
     color: #3347FF;
 }
 
@@ -228,7 +261,7 @@ body {
 
 .programme {
     position: relative;
-/*    margin-top: -100px;*/
+    /*    margin-top: -100px;*/
 }
 
 .legend {
@@ -281,26 +314,26 @@ body {
     font-size: 30px;
 }
 
-#signup a{
+#signup a {
     font-family: Aeonik;
     font-size: 18px;
-/*    padding: 4px 15px;*/
-/*    background: red;*/
-/*    margin-left: -10px;*/
-/*    border-radius: 100px;*/
+    /*    padding: 4px 15px;*/
+    /*    background: red;*/
+    /*    margin-left: -10px;*/
+    /*    border-radius: 100px;*/
     text-decoration: none;
     color: red;
 }
 
-#signup a:hover{
+#signup a:hover {
     color: darkred;
 }
 
-#signup a:visited{
+#signup a:visited {
     text-decoration: none;
 }
 
-footer{
+footer {
     border-top: 1px solid white;
     font-family: Aeonik;
     font-size: 20px;
@@ -407,96 +440,97 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
-    
+
     .info {
-    display: inline;
-         letter-spacing: -0.2px;
-    line-height: 1.2;
-    font-size: 20px;
-}
-    
+        display: inline;
+        letter-spacing: -0.2px;
+        line-height: 1.2;
+        font-size: 20px;
+    }
+
     @media (max-width: 768px) {
-    
-    .info {
-    display: inline;
-         letter-spacing: -0.2px;
-    line-height: 1.2;
-    font-size: 20px;
-}
-    
-}
-/* ==========================================================================
+
+        .info {
+            display: inline;
+            letter-spacing: -0.2px;
+            line-height: 1.2;
+            font-size: 20px;
+        }
+
+    }
+
+    /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
+    @media print {
 
-    *,
-    *::before,
-    *::after {
-        background: #fff !important;
-        color: #000 !important;
-        /* Black prints faster */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+        *,
+        *::before,
+        *::after {
+            background: #fff !important;
+            color: #000 !important;
+            /* Black prints faster */
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+        a,
+        a:visited {
+            text-decoration: underline;
+        }
 
-    a[href]::after {
-        content: " ("attr(href) ")";
-    }
+        a[href]::after {
+            content: " ("attr(href) ")";
+        }
 
-    abbr[title]::after {
-        content: " ("attr(title) ")";
-    }
+        abbr[title]::after {
+            content: " ("attr(title) ")";
+        }
 
-    /*
+        /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-    a[href^="#"]::after,
-    a[href^="javascript:"]::after {
-        content: "";
-    }
+        a[href^="#"]::after,
+        a[href^="javascript:"]::after {
+            content: "";
+        }
 
-    pre {
-        white-space: pre-wrap !important;
-    }
+        pre {
+            white-space: pre-wrap !important;
+        }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+        pre,
+        blockquote {
+            border: 1px solid #999;
+            page-break-inside: avoid;
+        }
 
-    /*
+        /*
    * Printing Tables:
    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-    thead {
-        display: table-header-group;
-    }
+        thead {
+            display: table-header-group;
+        }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+        tr,
+        img {
+            page-break-inside: avoid;
+        }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+        p,
+        h2,
+        h3 {
+            orphans: 3;
+            widows: 3;
+        }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
+        h2,
+        h3 {
+            page-break-after: avoid;
+        }
     }
-}
