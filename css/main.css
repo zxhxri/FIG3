@@ -333,12 +333,14 @@ header {
     text-decoration: none;
 }
 
+
 footer {
     border-top: 1px solid white;
     font-family: Aeonik;
     font-size: 20px;
     color: white;
 }
+
 
 /* ==========================================================================
    Helper classes
