@@ -18,9 +18,9 @@
 }
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.3;
+/*    color: #222;*/
+/*    font-size: 1em;*/
+/*    line-height: 1.3;*/
 
 }
 
@@ -93,13 +93,59 @@ textarea {
 body {
     overflow-x: hidden;
     padding: 20px;
-    height: 10000px;
+/*    height: 10000px;*/
     background: linear-gradient(180deg, rgba(36, 0, 255, 0.35) 0%, rgba(18, 154, 24, 0.457812) 46.88%, rgba(219, 39, 39, 0.58) 100%);
     background-repeat: no-repeat;
 }
 
+.lang {
+    display: inline-block;
+    float: right;
+    right: 10px;
+    top: 10px;
+    z-index: 999999;
+    position: fixed;
+}
+
+.btn,
+.btn:visited {
+    color: orangered;
+    background: yellow;
+    padding: 8px 22px;
+    font-size: 18px;
+    font-family: Aeonik, sans-serif;
+     font-feature-settings: "ss16";
+    line-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background 0.1s ease-in-out;
+    -webkit-transition: background 0.1s ease-in-out;
+    -moz-transition: background 0.1s ease-in-out;
+    -ms-transition: background 0.1s ease-in-out;
+    -o-transition: background 0.1s ease-in-out;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn:visited:hover,
+.btn:focus,
+.btn:visited:focus {
+    background: darkslateblue;
+    color: #ffffff;
+}
+
+.btn:active,
+.btn:visited:active {
+}
+
 #logo {
-    padding-top: 20px;
+    top: 120px;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -108,11 +154,55 @@ body {
     text-align: center;
     width: 80%;
     z-index: 999999;
+    fill: #DD05B4;
+    transition: fill 0.1s ease-in-out;
+    -webkit-transition: fill 0.1s ease-in-out;
+    -moz-transition: fill 0.1s ease-in-out;
+    -ms-transition: fill 0.1s ease-in-out;
+    -o-transition: fill 0.1s ease-in-out;
+    
+    -webkit-animation: color_change 2s infinite alternate;
+	-moz-animation: color_change 2s infinite alternate;
+	-ms-animation: color_change 2s infinite alternate;
+	-o-animation: color_change 2s infinite alternate;
+	animation: color_change 2s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+	from { fill: #3347FF; }
+	to { fill: #DE248A; }
+}
+@-moz-keyframes color_change {
+	from { fill: #3347FF; }
+	to { fill: #DE248A; }
+}
+@-ms-keyframes color_change {
+	from { fill: #3347FF; }
+	to { fill: #DE248A; }
+}
+@-o-keyframes color_change {
+	from { fill: #3347FF; }
+	to { fill: #DE248A; }
+}
+@keyframes color_change {
+	from { fill: #3347FF; }
+	to { fill: #DE248A; }
+}
+
+#logo:hover {
+/*    fill: #B2A6FF;*/
+    
 }
 
 .pictogram-1 {
     position: relative;
     top: 20px;
+    z-index: 1;
+}
+
+.pictogram-2 {
+    position: relative;
+   margin-top: -80px;
     z-index: 1;
 }
 
@@ -123,16 +213,18 @@ body {
     font-family: Aeonik, sans-serif;
     letter-spacing: -0.2px;
     line-height: 1.2;
-    font-size: 35px;
+    font-size: 32px;
     color: #1A6906;
+}
+
+.info a{
+    color: #3347FF;
 }
 
 .column {
     flex: 50%;
     margin: 20px;
 }
-
-
 
 .programme {
     position: relative;
@@ -187,6 +279,32 @@ body {
 #time {
     font-family: Aeonik;
     font-size: 30px;
+}
+
+#signup a{
+    font-family: Aeonik;
+    font-size: 18px;
+/*    padding: 4px 15px;*/
+/*    background: red;*/
+/*    margin-left: -10px;*/
+/*    border-radius: 100px;*/
+    text-decoration: none;
+    color: red;
+}
+
+#signup a:hover{
+    color: darkred;
+}
+
+#signup a:visited{
+    text-decoration: none;
+}
+
+footer{
+    border-top: 1px solid white;
+    font-family: Aeonik;
+    font-size: 20px;
+    color: white;
 }
 
 /* ==========================================================================
