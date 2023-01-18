@@ -24,6 +24,11 @@ html {
 
 }
 
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -173,63 +178,87 @@ header {
 }
 
 @-webkit-keyframes color_change {
-    from {
-        fill: #3347FF;
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #5F7DAE;
     }
 
-    to {
-        fill: #DE248A;
+    100% {
+        fill: #EB5A24;
     }
 }
 
 @-moz-keyframes color_change {
-    from {
-        fill: #3347FF;
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #5F7DAE;
     }
 
-    to {
-        fill: #DE248A;
+    100% {
+        fill: #EB5A24;
     }
 }
 
 @-ms-keyframes color_change {
-    from {
-        fill: #3347FF;
+   0% {
+        fill: white;
+    }
+    50% {
+        fill: #5F7DAE;
     }
 
-    to {
-        fill: #DE248A;
+    100% {
+        fill: #EB5A24;
     }
 }
 
 @-o-keyframes color_change {
-    from {
-        fill: #3347FF;
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #5F7DAE;
     }
 
-    to {
-        fill: #DE248A;
+    100% {
+        fill: #EB5A24;
     }
 }
 
 @keyframes color_change {
-    from {
-        fill: #3347FF;
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #5F7DAE;
     }
 
-    to {
-        fill: #DE248A;
+    100% {
+        fill: #EB5A24;
     }
 }
 
-#logo:hover {
-    /*    fill: #B2A6FF;*/
-
+.subtitle #sub{
+    position: sticky;
+/*    padding-top: 150px;*/
+    top: 51vw;
+    margin-top: -10px;
+    font-family: Aeonik, sans-serif;
+/*    font-size: 40px;*/
+    color: darkblue;
+    z-index: 5;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pictogram-1 {
     position: relative;
-    top: 20px;
+    top: -20px;
     z-index: 1;
 }
 
@@ -268,6 +297,8 @@ header {
 .legend {
     font-family: Aeonik;
     font-size: 30px;
+    position: sticky;
+    top: 10px;
 }
 
 .exhibition {
@@ -335,12 +366,119 @@ header {
 }
 
 
+
+/* Modal Content/Box */
+.modal-content {
+    position: relative;
+  background-color: darkcyan;
+ /* 15% from the top and centered */
+  padding: 30px;
+/*  border: 1px solid #888;*/
+    border-radius: 10px;
+/*  width: 30%;*/
+    height:100%;
+    margin: 10px;
+/*    right: 10px;*/
+/*    float: right;*/
+/*    height: 50%; Could be more or less, depending on screen size */
+}
+
+.modal-content a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+input, button, submit { background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+text-align: left;
+}
+
+#location{
+    font-family: AeonikBold;
+    font-size: 30px;
+}
+
+#address{
+     font-family: Aeonik;
+    font-size: 30px;
+}
+
+button #images{
+    
+}
+
+#images,
+#images:visited {
+    display: inline-block;
+    float: left;
+    right: 10px;
+    bottom: 10px;
+    z-index: 999999;
+    position: fixed;
+    color: orangered;
+    background: yellow;
+    padding: 8px 22px;
+    font-size: 18px;
+    font-family: Aeonik, sans-serif;
+    font-feature-settings: "ss16";
+    line-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background 0.1s ease-in-out;
+    -webkit-transition: background 0.1s ease-in-out;
+    -moz-transition: background 0.1s ease-in-out;
+    -ms-transition: background 0.1s ease-in-out;
+    -o-transition: background 0.1s ease-in-out;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+#images:hover,
+#images:visited:hover,
+#images:focus,
+#images:visited:focus {
+    background: darkslateblue;
+    color: #ffffff;
+}
+
+#images:active,
+#images:visited:active {}
+
+
+#img1{
+    mix-blend-mode: multiply;
+    position: fixed;
+    top: 20px;
+    right: 5px;
+    width: 20%;
+    z-index: 999999;
+    pointer-events: none;
+    display: none;
+}
+
 footer {
+/*    position: static;*/
     border-top: 1px solid white;
     font-family: Aeonik;
     font-size: 20px;
     color: white;
+    bottom: 5px;
+    margin-top: 20px;
 }
+
+
 
 
 /* ==========================================================================
