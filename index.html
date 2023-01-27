@@ -309,6 +309,8 @@
 
         }
 
+     
+
         .tippy-box[data-theme~='party'][data-placement^='top']>.tippy-arrow::before {
             border-top-color: yellow;
 
@@ -353,7 +355,25 @@
         .tippy-box[data-theme~='workshops'][data-placement^='right']>.tippy-arrow::before {
             border-right-color: whitesmoke;
         }
+   @media only screen and (max-width: 768px) {
 
+            .tippy-box[data-theme~='party'],
+            .tippy-box[data-theme~='tomato'],
+            .tippy-box[data-theme~='workshops'] {
+                font-size: 25px;
+                line-height: 27px;
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            .tippy-box[data-theme~='party'],
+            .tippy-box[data-theme~='tomato'],
+            .tippy-box[data-theme~='workshops'] {
+                font-size: 25px;
+                line-height: 27px;
+            }
+        }
     </style>
     <script>
         // With the above scripts loaded, you can call `tippy()` with a CSS
@@ -372,7 +392,7 @@
             maxWidth: 950,
             followCursor: 'horizontal',
             trigger: "mouseenter",
-            
+
         });
 
         tippy('#myButton2', {
