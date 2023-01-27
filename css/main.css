@@ -281,7 +281,8 @@ header {
     line-height: 1.2;
     font-size: 32px;
     color: #1A6906;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 .date {}
@@ -307,7 +308,7 @@ header {
 .programme {
     position: relative;
     margin-bottom: 20px;
-        margin-top: 20px;
+    margin-top: 20px;
 }
 
 #programme{
@@ -543,43 +544,84 @@ footer a:visited {
 }
 
 @media only screen and (max-width: 768px) {
-
-    .info {
+   .info, {
         display: inline;
-        letter-spacing: -0.2px;
+/*        letter-spacing: -0.2px;*/
         line-height: 1.2;
         font-size: 20px;
     }
-
-    .column {
-        margin: 0px;
-    }
-
-    .legend {
-        position: relative;
-        padding-bottom: 20px;
+    
+    .about {
         font-size: 20px;
+        line-height: 1.2;
     }
+
+
+    
+#space {
+    font-family: Aeonik;
+    font-size: 25px;
+}
+
+#event {
+    font-size: 35px;
+/*    line-height: 42px;*/
+    
+    font-family: AeonikBold;
+}
+
+#with {
+    font-family: Aeonik;
+    font-size: 25px;
+}
+
+#time {
+    font-family: Aeonik;
+    font-size: 25px;
+}
 }
 
 @media (max-width: 768px) {
 
-    .info {
+    .info, {
         display: inline;
-        letter-spacing: -0.2px;
+/*        letter-spacing: -0.2px;*/
         line-height: 1.2;
         font-size: 20px;
+    }
+    
+    .about {
+        font-size: 20px;
+        line-height: 1.2;
     }
 
     .column {
         margin: 0px;
     }
 
-    .legend {
-        position: relative;
-        padding-bottom: 20px;
-        font-size: 20px;
-    }
+
+
+#space {
+    font-family: Aeonik;
+    font-size: 25px;
+}
+
+#event {
+    font-size: 35px;
+/*    line-height: 42px;*/
+    
+    font-family: AeonikBold;
+}
+
+#with {
+    font-family: Aeonik;
+    font-size: 25px;
+}
+
+#time {
+    font-family: Aeonik;
+    font-size: 25px;
+}
 }
 
 /* ==========================================================================
