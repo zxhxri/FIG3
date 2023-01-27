@@ -115,8 +115,8 @@ body {
 
 .btn,
 .btn:visited {
-    color: orangered;
-    background: yellow;
+    color: white;
+    background: rgba(217, 217, 217, 0.3);
     padding: 8px 22px;
     font-size: 18px;
     font-family: Aeonik, sans-serif;
@@ -142,8 +142,8 @@ body {
 .btn:visited:hover,
 .btn:focus,
 .btn:visited:focus {
-    background: darkslateblue;
-    color: #ffffff;
+    background: rgba(217, 217, 217, 0.6);;
+    color: yellow;
 }
 
 .btn:active,
@@ -274,10 +274,20 @@ header {
     z-index: 1;
 }
 
+.about {
+    position: relative;
+    font-family: Aeonik, sans-serif;
+    letter-spacing: -0.2px;
+    line-height: 1.2;
+    font-size: 32px;
+    color: #1A6906;
+    padding-bottom: 50px;
+}
+
 .date {}
 
 .info {
-    display: flex;
+/*    display: flex;*/
     font-family: Aeonik, sans-serif;
     letter-spacing: -0.2px;
     line-height: 1.2;
@@ -290,7 +300,7 @@ header {
 }
 
 .column {
-    flex: 50%;
+/*    flex: 50%;*/
     margin: 20px;
 }
 
@@ -298,6 +308,13 @@ header {
     position: relative;
     margin-bottom: 20px;
         margin-top: 20px;
+}
+
+#programme{
+    position: sticky;
+    top: 10px;
+/*    opacity: 60%;*/
+    mix-blend-mode: difference;
 }
 
 .legend {
