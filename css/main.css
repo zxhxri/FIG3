@@ -544,19 +544,17 @@ footer a:visited {
 }
 
 @media only screen and (max-width: 768px) {
-   .info, {
-        display: inline;
-/*        letter-spacing: -0.2px;*/
-        line-height: 1.2;
-        font-size: 20px;
-    }
     
     .about {
         font-size: 20px;
         line-height: 1.2;
     }
 
-
+#programme{
+    position: relative;
+/*    opacity: 60%;*/
+    mix-blend-mode: normal;
+}
     
 #space {
     font-family: Aeonik;
@@ -582,13 +580,6 @@ footer a:visited {
 }
 
 @media (max-width: 768px) {
-
-    .info, {
-        display: inline;
-/*        letter-spacing: -0.2px;*/
-        line-height: 1.2;
-        font-size: 20px;
-    }
     
     .about {
         font-size: 20px;
@@ -599,7 +590,11 @@ footer a:visited {
         margin: 0px;
     }
 
-
+#programme{
+    position: relative;
+/*    opacity: 60%;*/
+    mix-blend-mode: normal;
+}
 
 #space {
     font-family: Aeonik;
