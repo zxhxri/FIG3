@@ -116,6 +116,7 @@ textarea {
     margin-right: 20px;
 } 
 
+
 a:link {
     text-decoration: none;
     color: black;
@@ -259,6 +260,17 @@ footer a:visited {
   /* Style adjustments for high resolution devices */
 }
 
+@media only screen and (max-width: 768px) {
+    .flex-container {
+    display: block;
+}
+}
+
+@media (max-width: 768px) {
+     .flex-container {
+    display: block;
+}
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
