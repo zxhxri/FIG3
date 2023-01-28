@@ -388,6 +388,10 @@ header {
     font-size: 30px;
 }
 
+#signup{
+    display: none;
+}
+
 #signup a {
     font-family: Aeonik;
     font-size: 18px;
