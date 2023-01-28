@@ -114,11 +114,13 @@ body {
 }
 
 a {
-     color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
 }
 
-a:hover{
+a:hover {
     opacity: 0.5;
 }
 
@@ -151,7 +153,8 @@ a:hover{
 .btn:visited:hover,
 .btn:focus,
 .btn:visited:focus {
-    background: rgba(217, 217, 217, 0.6);;
+    background: rgba(217, 217, 217, 0.6);
+    ;
     color: yellow;
 }
 
@@ -299,7 +302,7 @@ header {
 .date {}
 
 .info {
-/*    display: flex;*/
+    /*    display: flex;*/
     font-family: Aeonik, sans-serif;
     letter-spacing: -0.2px;
     line-height: 1.2;
@@ -312,7 +315,7 @@ header {
 }
 
 .column {
-/*    flex: 50%;*/
+    /*    flex: 50%;*/
     margin: 20px;
 }
 
@@ -322,11 +325,11 @@ header {
     margin-top: 20px;
 }
 
-#programme{
+#programme {
     position: sticky;
     top: 10px;
     z-index: 999;
-/*    opacity: 60%;*/
+    /*    opacity: 60%;*/
     mix-blend-mode: difference;
 }
 
@@ -373,8 +376,8 @@ header {
 
 #event {
     font-size: 50px;
-/*    line-height: 42px;*/
-    
+    /*    line-height: 42px;*/
+
     font-family: AeonikBold;
 }
 
@@ -388,7 +391,7 @@ header {
     font-size: 30px;
 }
 
-#signup{
+#signup {
     display: none;
 }
 
@@ -560,83 +563,83 @@ footer a:visited {
 }
 
 @media only screen and (max-width: 768px) {
-    
+
     .about {
         font-size: 20px;
         line-height: 1.2;
-        padding-left: 20px; 
+        padding-left: 20px;
         padding-right: 20px;
     }
 
-#programme{
-    position: relative;
-/*    opacity: 60%;*/
-    mix-blend-mode: normal;
-}
-    
-#space {
-    font-family: Aeonik;
-    font-size: 25px;
-}
+    .pictogram-2 {
+        margin-top: -20px;
+    }
 
-#event {
-    font-size: 35px;
-/*    line-height: 42px;*/
-    
-    font-family: AeonikBold;
-}
+    #programme {
+        position: relative;
+        /*    opacity: 60%;*/
+        mix-blend-mode: normal;
+    }
 
-#with {
-    font-family: Aeonik;
-    font-size: 25px;
-}
+    #space {
+        font-family: Aeonik;
+        font-size: 25px;
+    }
 
-#time {
-    font-family: Aeonik;
-    font-size: 25px;
-}
+    #event {
+        font-size: 35px;
+        font-family: AeonikBold;
+    }
+
+    #with {
+        font-family: Aeonik;
+        font-size: 25px;
+    }
+
+    #time {
+        font-family: Aeonik;
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 768px) {
-    
+
     .about {
         font-size: 20px;
         line-height: 1.2;
-        padding-left: 20px; 
+        padding-left: 20px;
         padding-right: 20px;
     }
 
-    .column {
-        margin: 0px;
+    .pictogram-2 {
+        margin-top: -20px;
     }
 
-#programme{
-    position: relative;
-/*    opacity: 60%;*/
-    mix-blend-mode: normal;
-}
+    #programme {
+        position: relative;
+        /*    opacity: 60%;*/
+        mix-blend-mode: normal;
+    }
 
-#space {
-    font-family: Aeonik;
-    font-size: 25px;
-}
+    #space {
+        font-family: Aeonik;
+        font-size: 25px;
+    }
 
-#event {
-    font-size: 35px;
-/*    line-height: 42px;*/
-    
-    font-family: AeonikBold;
-}
+    #event {
+        font-size: 35px;
+        font-family: AeonikBold;
+    }
 
-#with {
-    font-family: Aeonik;
-    font-size: 25px;
-}
+    #with {
+        font-family: Aeonik;
+        font-size: 25px;
+    }
 
-#time {
-    font-family: Aeonik;
-    font-size: 25px;
-}
+    #time {
+        font-family: Aeonik;
+        font-size: 25px;
+    }
 }
 
 /* ==========================================================================
