@@ -322,6 +322,7 @@ header {
 #programme{
     position: sticky;
     top: 10px;
+    z-index: 999;
 /*    opacity: 60%;*/
     mix-blend-mode: difference;
 }
