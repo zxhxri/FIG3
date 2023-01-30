@@ -107,6 +107,20 @@ textarea {
     position: fixed;
 }
 
+.about {
+    position: relative;
+    font-family: Aeonik, sans-serif;
+    letter-spacing: -0.2px;
+    line-height: 1.1;
+    font-size: 30px;
+    color: #1A6906;
+    padding-bottom: 20px;
+    padding-top: 20px;
+/*    padding-left: 70px;*/
+    padding-right: 250px;
+    text-align: left;
+}
+
 a {
      color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
@@ -315,12 +329,19 @@ footer a:visited {
     .flex-container {
     display: block;
 }
+    .about{
+        padding-right: 0px;
+    }
+    
 }
 
 @media (max-width: 768px) {
      .flex-container {
     display: block;
 }
+    .about{
+        padding-right: 0px;
+    }
 }
 /* ==========================================================================
    Print styles.
