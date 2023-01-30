@@ -330,6 +330,8 @@ footer a:visited {
     display: block;
 }
     .about{
+        font-size: 20px;
+        line-height: 1.2;
         padding-right: 0px;
     }
     
@@ -340,6 +342,8 @@ footer a:visited {
     display: block;
 }
     .about{
+        font-size: 20px;
+        line-height: 1.2;
         padding-right: 0px;
     }
 }
