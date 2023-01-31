@@ -10,11 +10,13 @@
 @font-face {
     font-family: Aeonik;
     src: url(../font/AeonikPro-Regular.otf);
+    font-display: fallback;
 }
 
 @font-face {
     font-family: AeonikBold;
     src: url(../font/AeonikPro-Bold.otf);
+    font-display: fallback;
 }
 
 html {
@@ -333,7 +335,7 @@ header {
 }
 
 .legend {
-    font-family: Aeonik;
+    font-family: Aeonik, sans-serif;
     font-size: 30px;
     position: sticky;
     top: 10px;
@@ -364,12 +366,12 @@ header {
 }
 
 #date {
-    font-family: AeonikBold;
+    font-family: AeonikBold, sans-serif;
     font-size: 12vw;
 }
 
 #space {
-    font-family: Aeonik;
+    font-family: Aeonik, sans-serif;
     font-size: 30px;
 }
 
@@ -377,16 +379,16 @@ header {
     font-size: 50px;
     /*    line-height: 42px;*/
 
-    font-family: AeonikBold;
+    font-family: AeonikBold, sans-serif;
 }
 
 #with {
-    font-family: Aeonik;
+    font-family: Aeonik, sans-serif;
     font-size: 30px;
 }
 
 #time {
-    font-family: Aeonik;
+    font-family: Aeonik, sans-serif;
     font-size: 30px;
 }
 
@@ -395,7 +397,7 @@ header {
 }
 
 #signup a {
-    font-family: Aeonik;
+    font-family: Aeonik, sans-serif;
     font-size: 18px;
     /*    padding: 4px 15px;*/
     /*    background: red;*/
@@ -428,19 +430,19 @@ submit {
 }
 
 #location {
-    font-family: AeonikBold;
+    font-family: AeonikBold, sans-serif;
     font-size: 30px;
 }
 
 #address {
-    font-family: Aeonik;
+    font-family: Aeonik, sans-serif;
     font-size: 30px;
 }
 
 footer {
     /*    position: static;*/
     border-top: 1px solid white;
-    font-family: Aeonik;
+    font-family: Aeonik, sans-serif;
     font-size: 20px;
     color: white;
     bottom: 5px;
