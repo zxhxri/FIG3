@@ -392,10 +392,6 @@ header {
     font-size: 30px;
 }
 
-#signup {
-    display: none;
-}
-
 #signup a {
     font-family: Aeonik, sans-serif;
     font-size: 18px;
@@ -404,7 +400,7 @@ header {
     /*    margin-left: -10px;*/
     /*    border-radius: 100px;*/
     text-decoration: none;
-    color: red;
+/*    color: ;*/
 }
 
 #signup a:hover {
