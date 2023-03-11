@@ -385,6 +385,8 @@ header {
 #with {
     font-family: Aeonik, sans-serif;
     font-size: 30px;
+    display: inline-block;
+    width: 55%;
 }
 
 #time {
@@ -591,6 +593,7 @@ footer a:visited {
     #with {
         font-family: Aeonik;
         font-size: 25px;
+        width: 100%;
     }
 
     #time {
@@ -631,6 +634,7 @@ footer a:visited {
     #with {
         font-family: Aeonik;
         font-size: 25px;
+        width: 100%;
     }
 
     #time {
